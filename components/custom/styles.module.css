@@ -1,0 +1,13 @@
+.stroke {
+  color: black;
+  -webkit-text-fill-color: black; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fb9f24;
+  font-size: 120px;
+  font-weight: bold;
+  height: 100%;
+  display: block;
+  @media (max-width: 800px) {
+    font-size: 80px;
+  }
+}

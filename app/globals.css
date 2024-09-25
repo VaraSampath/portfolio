@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #f9f9f9;
   --foreground: #171717;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
-    --foreground: #ededed;
+    --foreground: #f9f9f9;
   }
 }
 
@@ -23,5 +23,26 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+  .gradient-linear {
+    @apply bg-gradient-to-tr from-primary-yellow to-primary-orange;
+  }
+  .gradient-text {
+    @apply bg-gradient-to-tr from-primary-yellow to-primary-orange bg-clip-text text-transparent;
+  }
+  .gray-text {
+    @apply text-[#bdbdbd];
+  }
+  .white-heading {
+    @apply text-[#f9f9f9];
+  }
+  .active-nav {
+    @apply relative gradient-linear p-4 rounded-full flex justify-center items-center;
+  }
+  .active-nav::before {
+    @apply max-lg:hidden content-[""] block absolute -left-14 z-[5] gradient-linear p-4 rotate-45 rounded-lg;
+  }
+  .inactive-nav {
+    @apply bg-[#222222] p-4 rounded-full flex justify-center items-center;
   }
 }

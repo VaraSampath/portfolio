@@ -48,7 +48,7 @@ export const socialLinks = [
   },
   {
     name: "facebook",
-    link: "fb.com",
+    link: "https://x.com/varasampath753",
     icon: IconBrandFacebook,
   },
   {

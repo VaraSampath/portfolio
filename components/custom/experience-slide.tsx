@@ -34,7 +34,7 @@ const ExperienceSlide = () => {
       content: (
         <ContentBox
           role="SDE-1"
-          desc="Mostly Worked as Frontend Dev"
+          desc="Working as Frontend Dev using NextJs for now. Interested to work as BE Dev too 😊"
           name="CAW Studios"
         />
       ),
@@ -44,7 +44,7 @@ const ExperienceSlide = () => {
       content: (
         <ContentBox
           role="Frontend Dev"
-          desc="Mostly Worked as Frontend Dev"
+          desc="Worked as Web Dev, mostly i used to talk with client and given them the delivery."
           name="Pringlesoft INC."
         />
       ),
@@ -54,7 +54,7 @@ const ExperienceSlide = () => {
       content: (
         <ContentBox
           role="Data Analyst Intern"
-          desc="Mostly Worked as Frontend Dev"
+          desc="Worked On Azure cloud Synapse tool and MS SSIS. Learned SQL and Advance SQL practices"
           name="Technovert"
         />
       ),

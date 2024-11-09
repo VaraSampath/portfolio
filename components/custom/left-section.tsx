@@ -4,6 +4,7 @@ import {
   languages,
   profileLabels,
   profileValues,
+  resumeLink,
   socialLinks,
 } from "@/lib/constants";
 import PercentageCircle from "./percentage-circle";
@@ -20,7 +21,7 @@ const LeftSection = () => {
     mail: "bg-mail",
   };
   return (
-    <div className=" bg-primary-bg min-w-96 rounded-2xl overflow-hidden h-max hidden lg:block">
+    <div className=" bg-primary-bg min-w-96 rounded-2xl overflow-hidden h-max ">
       <div className="relative  w-full aspect-square">
         <div className="gradient-linear w-full h-full ">
           <Image
@@ -106,7 +107,7 @@ const LeftSection = () => {
       <div className="gradient-linear text-black">
         <Link
           href={
-            "https://docs.google.com/document/d/1nXKi9Oa2Z6ffR4dIxNY5frMcymkp_aw_C0rjwb5yPWM/edit?usp=drive_link"
+            resumeLink
           }
           className="flex py-3 justify-center items-center gap-2"
         >

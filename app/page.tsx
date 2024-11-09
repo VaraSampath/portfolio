@@ -15,7 +15,7 @@ export default function Home() {
         <div className="flex flex-1 max-lg:gap-0 gap-10 ">
           <LeftSection />
           <RightSection slide={slide} />
-          <div className=" relative self-start max-lg:w-0 w-14 h-[50vh] ">
+          <div className=" relative self-start max-lg:w-0 w-14 h-[50vh] hidden lg:block ">
             <div className="absolute max-lg:z-20 top-1/2 max-lg:-left-16">
               <Navbar
                 activeNav={slide}

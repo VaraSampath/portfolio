@@ -57,3 +57,5 @@ export const socialLinks = [
     icon: IconBrandGmail,
   },
 ];
+
+export const resumeLink = "https://drive.google.com/file/d/1Nq0o6PdTenCNm8RWFlGLkdkmjL7nZ4g3/view?usp=drive_link"

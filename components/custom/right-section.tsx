@@ -22,7 +22,7 @@ const RightSection = ({ slide }: { slide: number }) => {
   };
 
   return (
-    <div className="flex-1 text-sm flex gap-8 items-center max-lg:min-h-screen">
+    <div className="flex-1 text-sm hidden gap-8 items-center max-lg:min-h-screen  lg:flex">
       <div className="flex-1 relative z-[6]  bg-content-bg h-full bg-cover  rounded-2xl   max-w-[1100px] p-6 lg:px-16">
         {getSlide()}
       </div>
